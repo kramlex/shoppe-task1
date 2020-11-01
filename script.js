@@ -9,7 +9,6 @@ const BacklightFunction = (on = true) => {
     const selector = selectors[getRandomInt(0,selectors.length - 1)]
     selector.style.boxShadow = on ? `0px -1px 8px 6px rgba(${getRandomInt(0,255)}, ${getRandomInt(0,255)}, ${getRandomInt(0,255)}, ${Math.random()})` : ``
 }
-console.log(Math.random())
 
 BacklightFunction()
 
